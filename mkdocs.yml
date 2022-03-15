@@ -5,25 +5,9 @@ plugins:
   - markdownextradata: {}
     
 markdown_extensions:
-  - abbr
-  - admonition
-  - smarty
-  - sane_lists
-  - attr_list
-  - md_in_html
-  - pymdownx.snippets
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tabbed:
-      alternate_style: true 
 
 extra:
   social:
