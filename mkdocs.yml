@@ -1,0 +1,39 @@
+nav:
+  - 主页: 'index.md'
+plugins:
+  - search
+  - markdownextradata: {}
+    
+markdown_extensions:
+  - abbr
+  - admonition
+  - smarty
+  - sane_lists
+  - attr_list
+  - md_in_html
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://gist.github.com/Seedking
+    
+theme: 
+    name: material
+    language: zh
+    
+site_name: 欧亨利的故事
+repo_url: 'https://github.com/Spring-Society/O-Henry-s-Story'
+repo_name: '欧亨利的故事'
